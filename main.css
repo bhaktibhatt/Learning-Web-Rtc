@@ -1,0 +1,28 @@
+body{
+    width:800px;
+    margin: 0 auto;
+}
+video{
+    width: 100%;
+    border: 2px solid cyan;
+    background-color: rgb(63, 62, 62);
+
+}
+#videos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    padding: 10px;
+    
+}
+textarea{
+    height:50px;
+    width:100%;
+    margin: 20px;
+}
+@media screen and (max-width:800px){
+    body{
+        width:100%;
+    }
+}
